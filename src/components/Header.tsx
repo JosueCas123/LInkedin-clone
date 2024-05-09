@@ -21,13 +21,13 @@ export const Header = () => {
                 </form>
             </div>
 
-            <div className="flex items-center space-x-4 px-6">
+            <div className="flex flex-row items-center space-x-4 px-6">
                 <Link href='/' className="icon">
                     <HomeIcon className="h-6" />
                     <p>Home</p>
                 </Link>
                 <Link href='/' className="icon hidden md:flex">
-                    <UserIcon className="h-5" />
+                    <UserIcon className="h-6" />
                     <p>Network</p>
                 </Link>
                 <Link href='/' className="icon hidden md:flex">
@@ -35,7 +35,7 @@ export const Header = () => {
                     <p>Jobs</p>
                 </Link>
                 <Link href="" className="icon">
-                    <MessagesSquare className="h-5" />
+                    <MessagesSquare className="h-6" />
                     <p>Messaging</p>
                 </Link>
                 {/* USER BOOTON IF SIN */}
